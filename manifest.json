@@ -1,0 +1,15 @@
+{
+     "manifest_version": 2,
+     "name": "A extension for automatic UI test",
+     "version": "0.0.1",
+     "background": {
+		 "scripts": ["background.js"]
+	 },
+	 "permissions": ["tabs", "http://*/*", "https://*/*"],
+     "page_action": {
+          "default_icon": {
+               "19": "icon.png"
+          },
+          "default_title": "UI Test Extension"
+     }
+}
