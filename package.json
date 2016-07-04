@@ -1,0 +1,28 @@
+{
+  "name": "alxwvj-automatic-test",
+  "version": "1.0.0",
+  "description": "A automatic test tools ",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/springhack/alxwvj-automatic-test.git"
+  },
+  "keywords": [
+    "automatic"
+  ],
+  "author": "SpringHack",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/springhack/alxwvj-automatic-test/issues"
+  },
+  "homepage": "https://github.com/springhack/alxwvj-automatic-test#readme",
+  "devDependencies": {
+    "babel-core": "latest",
+    "babel-loader": "latest",
+    "babel-preset-es2015": "latest",
+    "webpack": "^1.13.1"
+  }
+}

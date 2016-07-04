@@ -1,9 +1,9 @@
 {
      "manifest_version": 2,
      "name": "A extension for automatic UI test",
-     "version": "0.0.1",
+     "version": "0.0.2",
      "background": {
-		 "scripts": ["background.js"]
+		 "scripts": ["./loader.js"]
 	 },
 	 "permissions": ["tabs", "http://*/*", "https://*/*"],
      "page_action": {
